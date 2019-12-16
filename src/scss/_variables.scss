@@ -1,0 +1,68 @@
+/**************************************
+ * FONTS
+ *************************************/
+ 
+ /* noto-sans-regular - latin */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../../recit_anglais/scss//noto-sans-v9-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Noto Sans'), local('NotoSans'),
+       url('../../../recit_anglais/scss//noto-sans-v9-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../../recit_anglais/scss//noto-sans-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../../recit_anglais/scss//noto-sans-v9-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../../../recit_anglais/scss//noto-sans-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../../../recit_anglais/scss//noto-sans-v9-latin-regular.svg#NotoSans') format('svg'); /* Legacy iOS */
+}
+
+$font-family-sans-serif: 'Ubuntu', sans-serif !default;
+$subheadings-font-family:'Viga', sans-serif;
+$headings-font-family:'Noto Sans';
+$figuretexte: 'Times New Roman', serif;
+
+
+/**************************************
+ * COLORS
+ *************************************/
+$primary:#1A425C;
+$primarypale:#E2E7EB;
+$primarycomplement:$danger;
+$secondary:#49a7d5;
+$secondarypale:#E8F4FA;
+$secondarycomplement:$warning;
+$success:#B7D233;
+$successpale:#EDF4CC;
+$successcomplement:$primary;
+$danger:#DF6660;
+$dangerpale:#F7D9D7;
+$dangercomplement:$secondary;
+$info:#E9C06B;
+$infopale:#FCF7EC;
+$infocomplement:$success;
+$warning:#D57749;
+$warningpale:#FAEEE8;
+$warningcomplement:$info;
+$light:#FDFBF7;
+$dark:#555555;
+
+
+$color1:#FFFFFF;
+$color2:#FFFFFF;
+$color3:#FFFFFF;
+$color4:#FFFFFF;
+$color5:#FFFFFF;
+
+$theme_color1:#D0181F;
+$theme_color2:#009CCD;
+$theme_color3:#FBB040;
+$theme_color4:#B7D233;
+
+/**************************************
+ * GENERAL
+ *************************************/
+
+$headings-font-family: $headings-font-family !default;
+
+$navbar-height: 50px !default;
+
