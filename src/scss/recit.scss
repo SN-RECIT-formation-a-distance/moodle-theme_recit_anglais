@@ -106,4 +106,31 @@ $body-color: #373a3c;
 /* Current directory is recit2/scss */
 @import "./recit/import";
 @import "./deprecated/editorhtml";
-@import "./deprecated/sous-theme";
+
+
+.editeur, body.theme-recit-anglais{
+  figure.figure_custom {
+      display: block !important;
+      -webkit-border-radius: 16px !important;
+      -moz-border-radius: 16px !important;
+      border-radius: 16px !important;
+      margin-bottom: 40px !important;
+      overflow: hidden !important;
+      -webkit-box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.5) !important;
+      -moz-box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.5) !important;
+      box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.5) !important;
+  }
+  
+p {font-size: 16px;}
+  
+  .personal-note-embedded{
+      .title{
+          font-size: 16px;
+      }
+  }
+
+  h2 {
+      font-family: 'Ubuntu';
+      font-weight: 500;
+  }
+}
