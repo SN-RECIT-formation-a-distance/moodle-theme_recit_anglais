@@ -28,6 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 // A description shown in the admin theme selector.                                                                                 
 $string['choosereadme'] = 'Theme recit_anglais is a child theme of Recit';                
 // The name of our plugin.                                                                                                          
+$string['privacy:metadata'] = 'Ce plugin ne conserve aucune donnée personelle.';
 $string['pluginname'] = 'RÉCIT anglais';                                                                                                    
 // We need to include a lang string for each block region.                                                                          
 $string['region-side-pre'] = 'Right';
